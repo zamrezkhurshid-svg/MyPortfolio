@@ -3,44 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/my-portfolio.css" />
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/MyPortfolio/css/my-portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="card">
-      <div class="box">
-        <h2>Empty for now</h2>
+    <div class="main-div" id="Introduction">
+      <nav>
+        <h1>My Portfolio</h1>
+        <div class="nav-div" id="div-icons">
+          <i class="fas fa-brands fa-linkedin"></i>
+          <i class="fas fa-brands fa-whatsapp"></i>
+          <i class="fas fa-regular fa-envelope"></i>
+        </div>
+      </nav>
+
+      <div class="text-container">
+        <h2>Zamrez Khurshid</h2>
+        <p>Learning to be a Web Developer in a world of AI</p>
+        <button>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>My Resume
+        </button>
+      </div>
+    </div>
+
+    <h3>My Skills</h3>
+    <div id="skills">
+      <div id="boxes">
+        <i class="fa-solid fa-file-code"></i>
+        <h4>HTML</h4>
       </div>
 
-      <div class="box1">
-        <div>
-          <h2>Introduction</h2>
-          <p>
-            Hi My Name Is Zamrez Khurshid.I am 16 years old.I was born in
-            Peshawar and now I am currently living in Islamabad.
-          </p>
-        </div>
-
-        <div>
-          <h2>Education</h2>
-          <p>
-            I have been educated in islamabad and have studied from The
-            Educators School Qamar Campus
-          </p>
-        </div>
-
-        <div>
-          <h2>Projects</h2>
-          <a href="Academy_Details.html">Academy Website</a>
-          <a href="coffee-shop.html">coffee-shop Website</a>
-        </div>
-
-        <div>
-          <h2>Contact Me</h2>
-          <p>Email: <a href="zamrezkhurshid@gmail.com"></a></p>
-        </div>
+      <div id="boxes">
+        <i class="fa-brands fa-bootstrap"></i>
+        <h4>CSS</h4>
       </div>
-      <footer>copyright Zamrez Khurshid 3 July 2026</footer>
+
+      <div id="boxes">
+        <i class="fa-brands fa-node-js"></i>
+        <h4>JavaScript</h4>
+      </div>
+    </div>
+
+    <h3>My Projects</h3>
+    <div id="projects">
+      <div id="boxes2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+          doloremque
+        </p>
+      </div>
+
+      <div id="boxes2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+          doloremque
+        </p>
+      </div>
+
+      <div id="boxes2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+          doloremque
+        </p>
+      </div>
+    </div>
+
+    <h3>Contact Me</h3>
+    <div class="contact-me">
+      <h5>
+        <i class="fa-regular fa-envelope"></i>
+        <label for Email>Email</label>
+        <input type="email" id="Email" name="Email" />
+      </h5>
+
+      <h5>
+        <i class="fa-regular fa-address-card"></i>
+        <label for full name>Full Name</label>
+        <input type="text" id="Full Name" name="full name" />
+      </h5>
+
+      <label for="message">Your Message</label>
+
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        min="20"
+        max="500"
+      ></textarea>
+
+      <button class="contact-me-button">
+        <i class="fa-solid fa-circle-user"></i>Contact Me
+      </button>
+    </div>
+
+    <h3>Footer</h3>
+    <div>
+      <footer>© 2026 Zamrez Khurshid. Turning ideas into experiences.</footer>
     </div>
   </body>
 </html>
