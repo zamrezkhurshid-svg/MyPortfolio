@@ -41,11 +41,38 @@ h4 {
   margin-top: -3px;
 }
 
+h5 {
+  font-size: 20px;
+}
+
+header {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
 /* TEXT CSS */
 
 p {
   font-size: 25px;
-  margin-top: -15px;
+}
+
+/* LINK CSS */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(31, 160, 224);
+}
+
+/* INPUT CSS */
+
+input {
+  background-color: #e0ebf0;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #d8dfe4;
 }
 
 /* NAVBAR CSS */
@@ -87,10 +114,36 @@ nav {
   padding: 150px;
 }
 
+.projects {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  align-items: center;
+  border-radius: 60px;
+  background-color: var(--primary-color);
+  border: 2px solid grey;
+}
+
+.skills {
+  height: 165px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 67px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 60px;
+  background-color: var(--primary-color);
+  border: 2px solid grey;
+}
+
 .contact-me {
   height: 300px;
   font-size: 20px;
   padding-left: 50px;
+  padding-bottom: 50px;
   line-height: 0.1px;
   border-radius: 60px;
   background-color: var(--primary-color);
@@ -99,37 +152,15 @@ nav {
 
 .contact-me-button {
   display: block;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 /* IDS */
-
-#projects {
-  height: 300px;
-  display: flex;
-  border-radius: 60px;
-  background-color: var(--primary-color);
-  border: 2px solid grey;
-}
-
-#skills {
-  height: 165px;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
-  padding-right: 100px;
-  padding-left: 100px;
-  border-radius: 60px;
-  background-color: var(--primary-color);
-  border: 2px solid grey;
-}
 
 #boxes {
   height: 100px;
   box-shadow: 5px 5px rgb(83, 80, 80);
   margin-top: -20px;
-  display: flex;
-  justify-content: space-between;
   padding-top: 30px;
   padding-right: 100px;
   padding-left: 100px;
@@ -139,15 +170,20 @@ nav {
 
 #boxes2 {
   height: 100px;
+  width: 100px;
+  text-align: center;
   box-shadow: 5px 5px rgb(83, 80, 80);
+  white-space: nowrap;
   margin-top: -20px;
-  display: flex;
-  justify-content: space-between;
   padding-top: 30px;
   padding-right: 100px;
   padding-left: 100px;
   background-color: var(--primary-color);
   border: 2px solid rgb(136, 120, 120);
+}
+
+#boxes:hover {
+  background-color: #c0cacf;
 }
 
 /* BUTTON CSS */
@@ -167,19 +203,4 @@ footer {
   border-radius: 30px;
   background-color: var(--primary-color);
   border: 2px solid grey;
-}
-
-#boxes:hover {
-  background-color: #c0cacf;
-}
-
-input {
-  background-color: #e0ebf0;
-  height: 25px;
-  border-radius: 5px;
-  border-color: #d8dfe4;
-}
-
-label {
-  margin-bottom: 30px;
 }
